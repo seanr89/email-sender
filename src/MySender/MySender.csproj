@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Version>0.1.0</Version>
+    <Authors>Sean Rafferty</Authors>
+    <Company>Xodnar</Company>
+    <Product>Simple SMTP Email Sender</Product>
+    <Description>TODO</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression> 
+    <PackageProjectUrl>https://github.com/seanr89/email-sender</PackageProjectUrl> 
+    <!-- <PackageIcon>images/icon.png</PackageIcon>  -->
+    <PackageTags>tag1;tag2;useful;keywords</PackageTags> 
+    <RepositoryUrl>https://github.com/seanr89/email-sender.git</RepositoryUrl> 
+    <RepositoryType>git</RepositoryType>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+</Project>
