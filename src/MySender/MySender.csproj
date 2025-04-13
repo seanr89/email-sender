@@ -8,15 +8,20 @@
     <Authors>Sean Rafferty</Authors>
     <Company>Xodnar</Company>
     <Product>Simple SMTP Email Sender</Product>
-    <Description>TODO</Description>
+    <Description>Helper tool to support simple email sending</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression> 
     <PackageProjectUrl>https://github.com/seanr89/email-sender</PackageProjectUrl> 
     <!-- <PackageIcon>images/icon.png</PackageIcon>  -->
-    <PackageTags>tag1;tag2;useful;keywords</PackageTags> 
+    <PackageTags>email;gmail;keyword</PackageTags> 
     <RepositoryUrl>https://github.com/seanr89/email-sender.git</RepositoryUrl> 
     <RepositoryType>git</RepositoryType>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+    <None Include="images\icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
 
 </Project>
